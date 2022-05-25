@@ -13,7 +13,7 @@ Tecnologias utilizadas no desafio:
 
 Banco de dados Postgres utilizando docker.
 
-<b>Comando necessários para rodar a aplicação:</b>
+<b>Comandos necessários para rodar a aplicação:</b>
 <h4> Instalação das dependências </h4>
  npm install
  
