@@ -9,6 +9,7 @@ Tecnologias utilizadas no desafio:
 - Apollo Server
 - Knex
 - Postgres
+- Dbeaver
 
 Banco de dados Postgres utilizando docker.
 
