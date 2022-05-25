@@ -29,7 +29,7 @@ npm start
       
 
 <h4>Imagens detalhadas do funcionamento da API estão em <b>Issues</b>.</h4>
-
+<h6>Aplicação testada em ambiente Windows.</h6>
 <br>
 
 
