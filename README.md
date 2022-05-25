@@ -12,11 +12,24 @@ Tecnologias utilizadas no desafio:
 
 Banco de dados Postgres utilizando docker.
 
-Comando utilizado para criar o container:</b>
+<b>Comando necessários para rodar a aplicação:</b>
+<h4> Instalação das dependências </h4>
+ npm install
+ 
+<br>
+<h4> Criação container </h4>
 docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=docker -d postgres
 
-Imagens detalhadas do funcionamento da API estão em <b>Issues</b>.
+<h4> Conexão Knex com Banco de Dados </h4>
+npx knex migrate:latest
 
+<h4> Iniciar aplicação </h4>
+npm start
+      
+
+<h4>Imagens detalhadas do funcionamento da API estão em <b>Issues</b>.</h4>
+
+<br>
 
 
 <div align="center">
