@@ -1,0 +1,30 @@
+scalar DateTime
+
+type User {
+  id: Int
+  nome: String
+  cpf: String!
+  telefone: String
+  dataCriacao: DateTime
+}
+
+input UserInput {
+  nome: String
+  cpf: String
+  telefone: String
+}
+
+input FiltroInput {
+  id: Int
+  cpf: String
+}
+
+type Query {
+  users: [User]
+}
+
+type Mutation{
+  criarUsuario(data: UserInput): User
+  atualizarUsuario(id: Int!, data: UserInput) : User
+  deletarUsuario(filtro: FiltroInput): Boolean
+}

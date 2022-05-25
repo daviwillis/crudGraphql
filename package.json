@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@graphile-contrib/pg-simplify-inflector": "^6.1.0",
+    "@graphql-tools/load-files": "^6.5.3",
+    "apollo-server": "^3.8.1",
+    "graphql": "^16.5.0",
+    "graphql-tools": "^8.2.11",
+    "knex": "^2.0.0",
+    "pg": "^8.7.3",
+    "postgraphile": "^4.12.9"
+  },
+  "name": "stefanini",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e js,gql",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
