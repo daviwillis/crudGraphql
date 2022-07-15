@@ -1,7 +1,7 @@
-# API graphql
-Teste para Stefanini.
+# CRUD API graphql
 
-Olá, fui desafiado a criar uma <b>API</b> utilizando graphql onde deveria persistir e ler dados em um banco de dados relacional.<br>
+
+Olá, criei uma <b>API</b> utilizando graphql onde deveria persistir e ler dados em um banco de dados relacional.<br>
 A API contém uma <b>query</b> para consulta de dados dos Usuários e três <b>mutations</b> onde você poderá criar, atualizar dados e excluir. <br>
 <br>
 Tecnologias utilizadas no desafio:
@@ -29,7 +29,6 @@ npm start
       
 
 <h4>Imagens detalhadas do funcionamento da API estão em <b>Issues</b>.</h4>
-<h6>Aplicação testada em ambiente Windows.</h6>
 <br>
 
 
