@@ -4,7 +4,7 @@
 Olá, criei uma <b>API</b> utilizando graphql onde deveria persistir e ler dados em um banco de dados relacional.<br>
 A API contém uma <b>query</b> para consulta de dados dos Usuários e três <b>mutations</b> onde você poderá criar, atualizar dados e excluir. <br>
 <br>
-Tecnologias utilizadas no desafio:
+Tecnologias utilizadas:
 - Graphql
 - Apollo Server
 - Knex
